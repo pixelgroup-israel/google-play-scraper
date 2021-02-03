@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @see      https://github.com/Ne-Lexa/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Exception;
+namespace Pixelgroup\GPlay\Exception;
 
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\RequestInterface;
