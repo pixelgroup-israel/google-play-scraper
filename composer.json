@@ -1,5 +1,5 @@
 {
-    "name": "nelexa/google-play-scraper",
+    "name": "pixelgroup/google-play-scraper",
     "type": "library",
     "description": "Scrapes app data from Google Play store.",
     "keywords": [
@@ -12,8 +12,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ne-Lexa",
-            "email": "alexey@nelexa.ru"
+            "name": "Pixel Group",
+            "email": "amit@pixelgroup.io"
         }
     ],
     "config": {
@@ -27,11 +27,11 @@
         "ext-json": "*",
         "ext-libxml": "*",
         "nelexa/enum": "^1.0",
-        "nelexa/http-client-simple-cache": "^1.0.1"
+        "pixelgroup/http-client-simple-cache": "^1.0.1"
     },
     "autoload": {
         "psr-4": {
-            "Nelexa\\GPlay\\": "src/"
+            "Pixelgroup\\GPlay\\": "src/"
         }
     },
     "require-dev": {
@@ -42,7 +42,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Nelexa\\GPlay\\Tests\\": "tests/"
+            "Pixelgroup\\GPlay\\Tests\\": "tests/"
         }
     },
     "suggest": {
