@@ -10,9 +10,9 @@ declare(strict_types=1);
  * @see      https://github.com/Ne-Lexa/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Enum;
+namespace Pixelgroup\GPlay\Enum;
 
-use Nelexa\Enum;
+use Pixelgroup\Enum;
 
 /**
  * Contains all valid values for the age parameter.
