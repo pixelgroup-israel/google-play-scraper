@@ -4,10 +4,10 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
 namespace Pixelgroup\GPlay\Enum;

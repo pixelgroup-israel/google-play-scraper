@@ -3,17 +3,17 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Scraper;
+namespace Pixelgroup\GPlay\Scraper;
 
-use Nelexa\GPlay\Model\AppId;
-use Nelexa\GPlay\Scraper\Extractor\ReviewsExtractor;
-use Nelexa\HttpClient\ResponseHandlerInterface;
+use Pixelgroup\GPlay\Model\AppId;
+use Pixelgroup\GPlay\Scraper\Extractor\ReviewsExtractor;
+use Pixelgroup\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

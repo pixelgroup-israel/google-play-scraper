@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Scraper;
+namespace Pixelgroup\GPlay\Scraper;
 
-use Nelexa\GPlay\Exception\GooglePlayException;
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\Developer;
-use Nelexa\GPlay\Model\GoogleImage;
-use Nelexa\GPlay\Util\ScraperUtil;
-use Nelexa\HttpClient\ResponseHandlerInterface;
+use Pixelgroup\GPlay\Exception\GooglePlayException;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\Developer;
+use Pixelgroup\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Util\ScraperUtil;
+use Pixelgroup\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use function GuzzleHttp\Psr7\parse_query;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Tests;
+namespace Pixelgroup\GPlay\Tests;
 
-use Nelexa\GPlay\Exception\GooglePlayException;
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\GoogleImage;
-use Nelexa\GPlay\Model\ImageInfo;
+use Pixelgroup\GPlay\Exception\GooglePlayException;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Model\ImageInfo;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Tests\Util;
+namespace Pixelgroup\GPlay\Tests\Util;
 
-use Nelexa\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Model\GoogleImage;
 use PHPUnit\Framework\TestCase;
 
 /**

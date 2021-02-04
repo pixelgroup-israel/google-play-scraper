@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Scraper;
+namespace Pixelgroup\GPlay\Scraper;
 
-use Nelexa\HttpClient\ResponseHandlerInterface;
+use Pixelgroup\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 

@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Scraper\Extractor;
+namespace Pixelgroup\GPlay\Scraper\Extractor;
 
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\App;
-use Nelexa\GPlay\Model\Developer;
-use Nelexa\GPlay\Model\GoogleImage;
-use Nelexa\GPlay\Util\ScraperUtil;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\App;
+use Pixelgroup\GPlay\Model\Developer;
+use Pixelgroup\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Util\ScraperUtil;
 use function GuzzleHttp\Psr7\parse_query;
 
 /**

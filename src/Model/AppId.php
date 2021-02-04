@@ -3,16 +3,16 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Model;
+namespace Pixelgroup\GPlay\Model;
 
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Util\LocaleHelper;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Util\LocaleHelper;
 
 /**
  * Contains the application ID, as well as the locale and country for which the information was or will be obtained.
@@ -40,7 +40,7 @@ class AppId
     private $country;
 
     /**
-     * Creates an \Nelexa\GPlay\Model\AppId object.
+     * Creates an \Pixelgroup\GPlay\Model\AppId object.
      *
      * @param string $id      application ID (Android package name)
      * @param string $locale  Locale (ex. en_US, en-CA or en). Default is 'en_US'.

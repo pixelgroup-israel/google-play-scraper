@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Model;
+namespace Pixelgroup\GPlay\Model;
 
 /**
  * Trait JsonSerializableTrait.

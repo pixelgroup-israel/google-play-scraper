@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Tests\Model\Builder;
+namespace Pixelgroup\GPlay\Tests\Model\Builder;
 
-use Nelexa\GPlay\Model\App;
-use Nelexa\GPlay\Model\AppInfo;
-use Nelexa\GPlay\Model\Category;
-use Nelexa\GPlay\Model\Developer;
-use Nelexa\GPlay\Model\GoogleImage;
-use Nelexa\GPlay\Model\HistogramRating;
-use Nelexa\GPlay\Model\ReplyReview;
-use Nelexa\GPlay\Model\Review;
-use Nelexa\GPlay\Model\Video;
+use Pixelgroup\GPlay\Model\App;
+use Pixelgroup\GPlay\Model\AppInfo;
+use Pixelgroup\GPlay\Model\Category;
+use Pixelgroup\GPlay\Model\Developer;
+use Pixelgroup\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Model\HistogramRating;
+use Pixelgroup\GPlay\Model\ReplyReview;
+use Pixelgroup\GPlay\Model\Review;
+use Pixelgroup\GPlay\Model\Video;
 use PHPUnit\Framework\TestCase;
 
 /**

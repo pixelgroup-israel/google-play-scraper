@@ -4,29 +4,29 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Scraper;
+namespace Pixelgroup\GPlay\Scraper;
 
-use Nelexa\GPlay\Exception\GooglePlayException;
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\AppId;
-use Nelexa\GPlay\Model\AppInfo;
-use Nelexa\GPlay\Model\Category;
-use Nelexa\GPlay\Model\Developer;
-use Nelexa\GPlay\Model\GoogleImage;
-use Nelexa\GPlay\Model\HistogramRating;
-use Nelexa\GPlay\Model\Review;
-use Nelexa\GPlay\Model\Video;
-use Nelexa\GPlay\Scraper\Extractor\ReviewsExtractor;
-use Nelexa\GPlay\Util\DateStringFormatter;
-use Nelexa\GPlay\Util\LocaleHelper;
-use Nelexa\GPlay\Util\ScraperUtil;
-use Nelexa\HttpClient\ResponseHandlerInterface;
+use Pixelgroup\GPlay\Exception\GooglePlayException;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\AppId;
+use Pixelgroup\GPlay\Model\AppInfo;
+use Pixelgroup\GPlay\Model\Category;
+use Pixelgroup\GPlay\Model\Developer;
+use Pixelgroup\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Model\HistogramRating;
+use Pixelgroup\GPlay\Model\Review;
+use Pixelgroup\GPlay\Model\Video;
+use Pixelgroup\GPlay\Scraper\Extractor\ReviewsExtractor;
+use Pixelgroup\GPlay\Util\DateStringFormatter;
+use Pixelgroup\GPlay\Util\LocaleHelper;
+use Pixelgroup\GPlay\Util\ScraperUtil;
+use Pixelgroup\HttpClient\ResponseHandlerInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use function GuzzleHttp\Psr7\parse_query;

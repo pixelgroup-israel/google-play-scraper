@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Tests;
+namespace Pixelgroup\GPlay\Tests;
 
-use Nelexa\GPlay\Enum\AgeEnum;
-use Nelexa\GPlay\Enum\CategoryEnum;
-use Nelexa\GPlay\Enum\PriceEnum;
-use Nelexa\GPlay\Enum\SortEnum;
-use Nelexa\GPlay\Exception\GooglePlayException;
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\App;
-use Nelexa\GPlay\Model\AppId;
-use Nelexa\GPlay\Model\AppInfo;
-use Nelexa\GPlay\Model\Category;
-use Nelexa\GPlay\Model\Developer;
-use Nelexa\GPlay\Model\Permission;
-use Nelexa\GPlay\Model\Review;
-use Nelexa\GPlay\Util\LocaleHelper;
+use Pixelgroup\GPlay\Enum\AgeEnum;
+use Pixelgroup\GPlay\Enum\CategoryEnum;
+use Pixelgroup\GPlay\Enum\PriceEnum;
+use Pixelgroup\GPlay\Enum\SortEnum;
+use Pixelgroup\GPlay\Exception\GooglePlayException;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\App;
+use Pixelgroup\GPlay\Model\AppId;
+use Pixelgroup\GPlay\Model\AppInfo;
+use Pixelgroup\GPlay\Model\Category;
+use Pixelgroup\GPlay\Model\Developer;
+use Pixelgroup\GPlay\Model\Permission;
+use Pixelgroup\GPlay\Model\Review;
+use Pixelgroup\GPlay\Util\LocaleHelper;
 use PHPUnit\Framework\TestCase;
 use Psr\SimpleCache\CacheInterface;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;

@@ -3,15 +3,15 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Model\Builder;
+namespace Pixelgroup\GPlay\Model\Builder;
 
-use Nelexa\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Model\GoogleImage;
 
 /**
  * Developer Builder.
@@ -35,10 +35,10 @@ class DeveloperBuilder
     /** @var string|null */
     private $website;
 
-    /** @var \Nelexa\GPlay\Model\GoogleImage|null */
+    /** @var \Pixelgroup\GPlay\Model\GoogleImage|null */
     private $icon;
 
-    /** @var \Nelexa\GPlay\Model\GoogleImage|null */
+    /** @var \Pixelgroup\GPlay\Model\GoogleImage|null */
     private $cover;
 
     /** @var string|null */

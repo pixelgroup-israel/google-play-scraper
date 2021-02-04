@@ -3,13 +3,13 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay;
+namespace Pixelgroup\GPlay;
 
 use GuzzleHttp\Promise\EachPromise;
 use GuzzleHttp\Promise\FulfilledPromise;
@@ -1201,7 +1201,7 @@ class GPlayApps
      * ```php
      * $gplay->saveGoogleImages(
      *     $images,
-     *     static function (\Nelexa\GPlay\Model\GoogleImage $image): string {
+     *     static function (\Pixelgroup\GPlay\Model\GoogleImage $image): string {
      *         $hash = $image->getHashUrl($hashAlgo = 'md5', $parts = 2, $partLength = 2);
      *         return 'path/to/screenshots/' . $hash . '.{ext}';
      *     },

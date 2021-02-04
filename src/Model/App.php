@@ -3,16 +3,16 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Model;
+namespace Pixelgroup\GPlay\Model;
 
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\Builder\AppBuilder;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\Builder\AppBuilder;
 
 /**
  * Contains basic information about the application from the Google Play store.

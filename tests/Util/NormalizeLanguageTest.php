@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nelexa\GPlay\Tests\Util;
+namespace Pixelgroup\GPlay\Tests\Util;
 
-use Nelexa\GPlay\Util\LocaleHelper;
+use Pixelgroup\GPlay\Util\LocaleHelper;
 use PHPUnit\Framework\TestCase;
 
 /**

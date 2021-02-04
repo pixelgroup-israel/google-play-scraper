@@ -83,91 +83,91 @@ namespace PHPSTORM_META {
 
     registerArgumentsSet(
         'sort',
-        \Nelexa\GPlay\Enum\SortEnum::HELPFULNESS(),
-        \Nelexa\GPlay\Enum\SortEnum::NEWEST(),
-        \Nelexa\GPlay\Enum\SortEnum::RATING(),
+        \Pixelgroup\GPlay\Enum\SortEnum::HELPFULNESS(),
+        \Pixelgroup\GPlay\Enum\SortEnum::NEWEST(),
+        \Pixelgroup\GPlay\Enum\SortEnum::RATING(),
     );
 
     registerArgumentsSet(
         'price',
-        \Nelexa\GPlay\Enum\PriceEnum::ALL(),
-        \Nelexa\GPlay\Enum\PriceEnum::FREE(),
-        \Nelexa\GPlay\Enum\PriceEnum::PAID(),
+        \Pixelgroup\GPlay\Enum\PriceEnum::ALL(),
+        \Pixelgroup\GPlay\Enum\PriceEnum::FREE(),
+        \Pixelgroup\GPlay\Enum\PriceEnum::PAID(),
     );
 
     registerArgumentsSet(
         'age',
         null,
-        \Nelexa\GPlay\Enum\AgeEnum::FIVE_UNDER(),
-        \Nelexa\GPlay\Enum\AgeEnum::SIX_EIGHT(),
-        \Nelexa\GPlay\Enum\AgeEnum::NINE_UP(),
+        \Pixelgroup\GPlay\Enum\AgeEnum::FIVE_UNDER(),
+        \Pixelgroup\GPlay\Enum\AgeEnum::SIX_EIGHT(),
+        \Pixelgroup\GPlay\Enum\AgeEnum::NINE_UP(),
     );
 
     registerArgumentsSet(
         'category',
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY(),
-        \Nelexa\GPlay\Enum\CategoryEnum::ART_AND_DESIGN(),
-        \Nelexa\GPlay\Enum\CategoryEnum::AUTO_AND_VEHICLES(),
-        \Nelexa\GPlay\Enum\CategoryEnum::BEAUTY(),
-        \Nelexa\GPlay\Enum\CategoryEnum::BOOKS_AND_REFERENCE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::BUSINESS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::COMICS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::COMMUNICATION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::DATING(),
-        \Nelexa\GPlay\Enum\CategoryEnum::EDUCATION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::ENTERTAINMENT(),
-        \Nelexa\GPlay\Enum\CategoryEnum::EVENTS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FINANCE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FOOD_AND_DRINK(),
-        \Nelexa\GPlay\Enum\CategoryEnum::HEALTH_AND_FITNESS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::HOUSE_AND_HOME(),
-        \Nelexa\GPlay\Enum\CategoryEnum::LIBRARIES_AND_DEMO(),
-        \Nelexa\GPlay\Enum\CategoryEnum::LIFESTYLE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::MAPS_AND_NAVIGATION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::MEDICAL(),
-        \Nelexa\GPlay\Enum\CategoryEnum::MUSIC_AND_AUDIO(),
-        \Nelexa\GPlay\Enum\CategoryEnum::NEWS_AND_MAGAZINES(),
-        \Nelexa\GPlay\Enum\CategoryEnum::PARENTING(),
-        \Nelexa\GPlay\Enum\CategoryEnum::PERSONALIZATION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::PHOTOGRAPHY(),
-        \Nelexa\GPlay\Enum\CategoryEnum::PRODUCTIVITY(),
-        \Nelexa\GPlay\Enum\CategoryEnum::SHOPPING(),
-        \Nelexa\GPlay\Enum\CategoryEnum::SOCIAL(),
-        \Nelexa\GPlay\Enum\CategoryEnum::SPORTS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::TOOLS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::TRAVEL_AND_LOCAL(),
-        \Nelexa\GPlay\Enum\CategoryEnum::VIDEO_PLAYERS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::ANDROID_WEAR(),
-        \Nelexa\GPlay\Enum\CategoryEnum::WEATHER(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_ACTION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_ADVENTURE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_ARCADE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_BOARD(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_CARD(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_CASINO(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_CASUAL(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_EDUCATIONAL(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_MUSIC(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_PUZZLE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_RACING(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_ROLE_PLAYING(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_SIMULATION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_SPORTS(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_STRATEGY(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_TRIVIA(),
-        \Nelexa\GPlay\Enum\CategoryEnum::GAME_WORD(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY_ACTION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY_BRAINGAMES(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY_CREATE(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY_EDUCATION(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY_MUSICVIDEO(),
-        \Nelexa\GPlay\Enum\CategoryEnum::FAMILY_PRETEND(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::ART_AND_DESIGN(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::AUTO_AND_VEHICLES(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::BEAUTY(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::BOOKS_AND_REFERENCE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::BUSINESS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::COMICS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::COMMUNICATION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::DATING(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::EDUCATION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::ENTERTAINMENT(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::EVENTS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FINANCE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FOOD_AND_DRINK(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::HEALTH_AND_FITNESS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::HOUSE_AND_HOME(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::LIBRARIES_AND_DEMO(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::LIFESTYLE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::MAPS_AND_NAVIGATION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::MEDICAL(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::MUSIC_AND_AUDIO(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::NEWS_AND_MAGAZINES(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::PARENTING(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::PERSONALIZATION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::PHOTOGRAPHY(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::PRODUCTIVITY(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::SHOPPING(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::SOCIAL(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::SPORTS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::TOOLS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::TRAVEL_AND_LOCAL(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::VIDEO_PLAYERS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::ANDROID_WEAR(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::WEATHER(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_ACTION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_ADVENTURE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_ARCADE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_BOARD(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_CARD(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_CASINO(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_CASUAL(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_EDUCATIONAL(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_MUSIC(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_PUZZLE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_RACING(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_ROLE_PLAYING(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_SIMULATION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_SPORTS(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_STRATEGY(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_TRIVIA(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::GAME_WORD(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY_ACTION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY_BRAINGAMES(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY_CREATE(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY_EDUCATION(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY_MUSICVIDEO(),
+        \Pixelgroup\GPlay\Enum\CategoryEnum::FAMILY_PRETEND(),
     );
 
     registerArgumentsSet(
         'limit',
-        \Nelexa\GPlay\GPlayApps::UNLIMIT,
+        \Pixelgroup\GPlay\GPlayApps::UNLIMIT,
         50,
         100,
         150,
@@ -179,35 +179,35 @@ namespace PHPSTORM_META {
         500
     );
 
-    expectedArguments(\Nelexa\GPlay\GPlayApps::__construct(), 0, argumentsSet("locales"));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::__construct(), 1, argumentsSet("countries"));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::setConcurrency(), 0, 4, 8, 1, 2, 3, 5, 6, 7, 9, 10, 11, 12);
-    expectedArguments(\Nelexa\GPlay\GPlayApps::setProxy(), 0, null, 'socks5://', 'https://', 'http://', 'socks4://', 'socks4a://', 'socks5h://', 'socks5://127.0.0.1:9050');
-    expectedArguments(\Nelexa\GPlay\GPlayApps::setCache(), 1, argumentsSet('cache_ttl_sec'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::setCacheTtl(), 0, argumentsSet('cache_ttl_sec'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getAppInfoForLocales(), 1, argumentsSet('locales_array'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getReviews(), 2, argumentsSet('sort'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getReviewById(), 1, 'gp:');
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getCategoriesForLocales(), 0, argumentsSet('locales_array'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getDeveloperInfoForLocales(), 1, argumentsSet('locales_array'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getSimilarApps(), 1, argumentsSet('limit'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::search(), 1, argumentsSet('limit'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::search(), 2, argumentsSet('price'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getListApps(), 1, argumentsSet('age'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getListApps(), 2, argumentsSet('limit'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getTopApps(), 1, argumentsSet('age'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getTopApps(), 2, argumentsSet('limit'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getNewApps(), 1, argumentsSet('age'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::getNewApps(), 2, argumentsSet('limit'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::saveGoogleImages(), 1, static function (\Nelexa\GPlay\Model\GoogleImage $image): string {
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::__construct(), 0, argumentsSet("locales"));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::__construct(), 1, argumentsSet("countries"));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::setConcurrency(), 0, 4, 8, 1, 2, 3, 5, 6, 7, 9, 10, 11, 12);
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::setProxy(), 0, null, 'socks5://', 'https://', 'http://', 'socks4://', 'socks4a://', 'socks5h://', 'socks5://127.0.0.1:9050');
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::setCache(), 1, argumentsSet('cache_ttl_sec'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::setCacheTtl(), 0, argumentsSet('cache_ttl_sec'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getAppInfoForLocales(), 1, argumentsSet('locales_array'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getReviews(), 2, argumentsSet('sort'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getReviewById(), 1, 'gp:');
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getCategoriesForLocales(), 0, argumentsSet('locales_array'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getDeveloperInfoForLocales(), 1, argumentsSet('locales_array'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getSimilarApps(), 1, argumentsSet('limit'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::search(), 1, argumentsSet('limit'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::search(), 2, argumentsSet('price'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getListApps(), 1, argumentsSet('age'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getListApps(), 2, argumentsSet('limit'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getTopApps(), 1, argumentsSet('age'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getTopApps(), 2, argumentsSet('limit'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getNewApps(), 1, argumentsSet('age'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::getNewApps(), 2, argumentsSet('limit'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::saveGoogleImages(), 1, static function (\Pixelgroup\GPlay\Model\GoogleImage $image): string {
         $hash = $image->getHashUrl($hashAlgo = 'md5', $parts = 2, $partLength = 2);
         return 'path/to/screenshots/' . $hash . '.{ext}';
     });
-    expectedReturnValues(\Nelexa\GPlay\GPlayApps::getDefaultLocale(), argumentsSet('locales'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::setDefaultLocale(), 0, argumentsSet("locales"));
-    expectedReturnValues(\Nelexa\GPlay\GPlayApps::getDefaultCountry(), argumentsSet('countries'));
-    expectedArguments(\Nelexa\GPlay\GPlayApps::setDefaultCountry(), 0, argumentsSet("countries"));
+    expectedReturnValues(\Pixelgroup\GPlay\GPlayApps::getDefaultLocale(), argumentsSet('locales'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::setDefaultLocale(), 0, argumentsSet("locales"));
+    expectedReturnValues(\Pixelgroup\GPlay\GPlayApps::getDefaultCountry(), argumentsSet('countries'));
+    expectedArguments(\Pixelgroup\GPlay\GPlayApps::setDefaultCountry(), 0, argumentsSet("countries"));
 
-    expectedArguments(\Nelexa\GPlay\Model\AppId::__construct(), 1, argumentsSet("locales"));
-    expectedArguments(\Nelexa\GPlay\Model\AppId::__construct(), 2, argumentsSet("countries"));
+    expectedArguments(\Pixelgroup\GPlay\Model\AppId::__construct(), 1, argumentsSet("locales"));
+    expectedArguments(\Pixelgroup\GPlay\Model\AppId::__construct(), 2, argumentsSet("countries"));
 }

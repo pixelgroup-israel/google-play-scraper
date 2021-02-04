@@ -3,18 +3,18 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Scraper;
+namespace Pixelgroup\GPlay\Scraper;
 
 use GuzzleHttp\Psr7\Request;
-use Nelexa\GPlay\Enum\SortEnum;
-use Nelexa\GPlay\GPlayApps;
-use Nelexa\GPlay\Model\AppId;
+use Pixelgroup\GPlay\Enum\SortEnum;
+use Pixelgroup\GPlay\GPlayApps;
+use Pixelgroup\GPlay\Model\AppId;
 use Psr\Http\Message\RequestInterface;
 use function GuzzleHttp\Psr7\stream_for;
 

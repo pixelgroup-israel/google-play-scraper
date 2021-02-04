@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Scraper\Extractor;
+namespace Pixelgroup\GPlay\Scraper\Extractor;
 
-use Nelexa\GPlay\Model\AppId;
-use Nelexa\GPlay\Model\GoogleImage;
-use Nelexa\GPlay\Model\ReplyReview;
-use Nelexa\GPlay\Model\Review;
-use Nelexa\GPlay\Util\DateStringFormatter;
+use Pixelgroup\GPlay\Model\AppId;
+use Pixelgroup\GPlay\Model\GoogleImage;
+use Pixelgroup\GPlay\Model\ReplyReview;
+use Pixelgroup\GPlay\Model\Review;
+use Pixelgroup\GPlay\Util\DateStringFormatter;
 
 /**
  * @internal

@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /**
- * @author   Ne-Lexa
+ * @author   Pixel Group
  * @license  MIT
  *
- * @see      https://github.com/Ne-Lexa/google-play-scraper
+ * @see      https://github.com/pixel-group/google-play-scraper
  */
 
-namespace Nelexa\GPlay\Util;
+namespace Pixelgroup\GPlay\Util;
 
-use Nelexa\GPlay\Enum\CategoryEnum;
-use Nelexa\GPlay\Model\App;
-use Nelexa\GPlay\Model\AppId;
-use Nelexa\GPlay\Model\AppInfo;
-use Nelexa\GPlay\Model\Category;
-use Nelexa\GPlay\Model\Developer;
+use Pixelgroup\GPlay\Enum\CategoryEnum;
+use Pixelgroup\GPlay\Model\App;
+use Pixelgroup\GPlay\Model\AppId;
+use Pixelgroup\GPlay\Model\AppInfo;
+use Pixelgroup\GPlay\Model\Category;
+use Pixelgroup\GPlay\Model\Developer;
 
 /**
  * @internal
